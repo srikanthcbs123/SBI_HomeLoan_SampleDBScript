@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[BankAccounts](
+	[BankAccountID] [int] IDENTITY(1,1) NOT NULL,
+	[AccountNumber] [nvarchar](20) NOT NULL,
+	[AccountHolder] [nvarchar](100) NOT NULL,
+	[BankID] [int] NOT NULL,
+	[IFSC] [nvarchar](20) NOT NULL,
+ CONSTRAINT [PK_BankAccounts] PRIMARY KEY CLUSTERED 
+(
+	[BankAccountID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
