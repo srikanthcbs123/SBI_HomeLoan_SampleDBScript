@@ -74,6 +74,12 @@
     <Build Include="Triggers\INSERT_TRIGGER.sql" />
     <Build Include="Tables\BankAccounts.sql" />
     <Build Include="Triggers\Trigger_DeletedBANKACCOUNTS.sql" />
+    <Build Include="Tables\Orders.sql" />
+    <Build Include="StoredProcedures\Usp_AddOrder.sql" />
+    <Build Include="StoredProcedures\Usp_UpdateOrder.sql" />
+    <Build Include="StoredProcedures\Usp_DeleteOrder.sql" />
+    <Build Include="StoredProcedures\Usp_GetOrder.sql" />
+    <Build Include="StoredProcedures\Usp_GetOrderById.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Schemas\LuSchema.sql" />
